@@ -4,128 +4,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- links -->
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <!-- link end -->
+
     <title>Jonatan Andersson CV</title>
+
     <style>
         * {
             margin: 0;
-            font-family: 'Inter', sans-seri
+            font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
 
 <body>
+
     <main>
+
         <header>
-            <!-- <h1 style="margin: auto;text-align: center;">Jonatan Andersson CV</h1> -->
-            <ul class="nav justify-content-center">
+
+            <ul class="nav justify-content-center flex-wrap">
+
                 <li class="nav-item">
-                    <button class="btn btn-primary" style="margin: 10px;">
-                        <a class="nav-link active" aria-current="page" href="index.html"
-                            style="color: white; text-decoration: none;">Om mig</a>
+                    <button class="btn btn-primary m-2">
+                        <a class="nav-link active" href="index.html" style="color:white;text-decoration:none;">
+                            Om mig
+                        </a>
                     </button>
                 </li>
+
                 <li class="nav-item">
-                    <button class="btn btn-primary" style="margin: 10px;">
-                        <a class="nav-link" href="educations.html"
-                            style="color: white; text-decoration: none;">Utbildning</a>
+                    <button class="btn btn-primary m-2">
+                        <a class="nav-link" href="educations.html" style="color:white;text-decoration:none;">
+                            Utbildning
+                        </a>
                     </button>
                 </li>
+
                 <li class="nav-item">
-                    <button class="btn btn-primary" style="margin: 10px;">
-                        <a class="nav-link" href="experiance.html"
-                            style="color: white; text-decoration: none;">Arbetslivserfarenhet</a>
+                    <button class="btn btn-primary m-2">
+                        <a class="nav-link" href="experiance.html" style="color:white;text-decoration:none;">
+                            Arbetslivserfarenhet
+                        </a>
                     </button>
                 </li>
+
                 <li class="nav-item">
-                    <button class="btn btn-primary" style="margin: 10px;">
-                        <a class="nav-link" href="Info_lia.html"
-                            style="color: white; text-decoration: none;">Info
-                            om LIA</a>
+                    <button class="btn btn-primary m-2">
+                        <a class="nav-link" href="Info_lia.html" style="color:white;text-decoration:none;">
+                            Info om LIA
+                        </a>
                     </button>
                 </li>
+
             </ul>
+
         </header>
-        <div class="container text-center" style="" id="aboutme">
-            <div class="row justify-content-center">
-                <div class="col-4" id="" style="margin-right: 40px;">
-                    <p class="speech-bubble" style="padding: 10px; margin-right: 100px;">Hej!
-                        <br>
+
+
+        <div class="container text-center" id="aboutme">
+
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-12 col-md-5 mb-4">
+
+                    <p class="speech-bubble p-3">
+
+                        Hej! <br>
+
                         Jag heter Jonatan Andersson och är 32 år. För närvarande studerar jag systemutveckling med
                         inriktning mot Java på Campus Värnamo.
-                        <br>
+
+                        <br><br>
+
                         Intresset för programmering och systemutveckling har funnits hos mig länge. Redan 2018 började
                         jag fundera på att vidareutbilda mig inom området, men då valde jag att fortsätta på min
-                        dåvarande karriärväg. Sju år senare bestämde jag mig för att ta steget fullt ut och lämna
-                        tryggheten i en fast anställning för att följa mitt intresse och utvecklas inom
-                        systemutveckling.
-                        <br>
+                        dåvarande karriärväg.
+
+                        <br><br>
+
+                        Sju år senare bestämde jag mig för att ta steget fullt ut och lämna tryggheten i en fast
+                        anställning för att följa mitt intresse och utvecklas inom systemutveckling.
+
+                        <br><br>
+
                         Jag ser nu fram emot att fortsätta utveckla mina tekniska kunskaper och på sikt arbeta
                         professionellt som utvecklare.
+
                     </p>
+
                 </div>
-                <figure class="col-4">
-                    <img src="images/Jonatan.jpg" alt="Jonatan Andersson." style="margin: 20px; align-items: right; max-height: 410px; border-radius: 30px;box-shadow: 0px 0px 10px rgb(51, 51, 51);
-">
+
+
+                <figure class="col-12 col-md-4 mb-4">
+
+                    <img src="images/Jonatan.jpg" alt="Jonatan Andersson" class="img-fluid"
+                        style="max-height:410px;border-radius:30px;box-shadow:0px 0px 10px rgb(51,51,51);">
+
                 </figure>
 
             </div>
-            <div class="col-5 justify-content-center d-flex mt-5" style="margin-bottom: 100px; margin-left: 15rem;">
-                <div class="card" style=" max-width: 50rem; padding: 10px;">
-                    <p>
-                        Några av erfarenheterna som jag samlat på mig genom åren är
-                    <ul>
-                        <li>Arbeta i team</li>
-                        På min nuvarande arbetsplats som jag för övrigt är tjäntledig ifrån, jobbar vi i lag om fyra
-                        personer där det är väldigt viktigt med god kommunikation för att få varje station att fungera.
-                        <br>
-                        <li>Arbeta under stress</li>
-                        På däckverkstäder kan det under vissa tidsperioder bli ett väldigt högt arbetstempo, då gäller
-                        det att man vet vart man har sina verktyg och jobbar systematiskt!
-                    </ul>
-                    </p>
-                </div>
-                <div class="col-4" id="speechbubbleTxt">
-                    <div class="card" style="padding: 10px; margin: 30px;">
-                        <h4>Vill ni komma i kontakt med mig?</h4>
-                        <div style="text-align: left; margin-left: 30px;">
-                            <a href="https://www.linkedin.com/in/jonatan-andersson-98a5322b3/">
-                                <i class="fa fa-linkedin-square" style="font-size:30px;"> <span
-                                        style="color: black; font-size: 24px;">Linked in</span></i>
-                            </a>
-                            <br>
-                            <i class="fa fa-github" style="font-size:35px">
-                            </i>
-                            <a href="https://github.com/Temmuks"
-                                style="font-size: 25px; text-decoration: none; color: black;"> Github</a>
-                            <br>
-                            <i class="fa fa-mobile-phone" style="font-size:38px; margin-left: 5px;"><span
-                                    style="margin-left: 10px; font-size: 23px;">070-791 47 05</span></i>
-                            <i class="fa fa-envelope" style="font-size:20px"><span style="font-size: 18px;">
-                                    Jonatan.anderssons@hotmail.com</span></i>
-                            <br>
-                        </div>
+
+
+
+            <div class="row justify-content-center mt-5">
+
+                <div class="col-12 col-md-6 mb-4">
+
+                    <div class="card">
+
+                        <p>
+                            Några av erfarenheterna som jag samlat på mig genom åren är
+                        </p>
+
+                        <ul>
+
+                            <li><b>Arbeta i team</b></li>
+
+                            På min nuvarande arbetsplats som jag för övrigt är tjänstledig ifrån,
+                            jobbar vi i lag om fyra personer där det är väldigt viktigt med god
+                            kommunikation för att få varje station att fungera.
+
+                            <br><br>
+
+                            <li><b>Arbeta under stress</b></li>
+
+                            På däckverkstäder kan det under vissa tidsperioder bli ett väldigt högt
+                            arbetstempo, då gäller det att man vet vart man har sina verktyg och
+                            jobbar systematiskt.
+
+                        </ul>
+
                     </div>
 
                 </div>
+
+
+
+                <div class="col-12 col-md-4" style="margin-bottom: 100px;">
+
+                    <div class="card">
+
+                        <h4>Vill ni komma i kontakt med mig?</h4>
+
+                        <div class="text-start mt-3">
+
+                            <a href="https://www.linkedin.com/in/jonatan-andersson-98a5322b3/">
+                                <i class="fa fa-linkedin-square" style="font-size:30px;"></i>
+                                <span style="font-size:20px;color:black;"> LinkedIn</span>
+                            </a>
+
+                            <br><br>
+
+                            <a href="https://github.com/Temmuks"
+                                style="font-size:20px;text-decoration:none;color:black;">
+                                <i class="fa fa-github" style="font-size:30px;"></i>
+                                Github
+                            </a>
+
+                            <br><br>
+
+                            <i class="fa fa-mobile-phone" style="font-size:30px;"></i>
+                            <span style="margin-left:10px;">070-791 47 05</span>
+
+                            <br><br>
+
+                            <i class="fa fa-envelope"></i>
+                            <span style="margin-left:10px;">Jonatan.anderssons@hotmail.com</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
+
     </main>
-    <footer style="position: fixed;">
-        <div class="container text-center">
-            <div class="row justify-content-center">
 
-            </div>
+
+    <footer>
+
+        <div class="container text-center">
+            <div class="row justify-content-center"></div>
         </div>
+
     </footer>
+
 </body>
 
 </html>
