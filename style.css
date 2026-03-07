@@ -4,7 +4,7 @@ header {
     padding: 1rem;
     height: 100%;
     /* background-image: linear-gradient(180deg, #8d8d8d, #aaaaaa 40%, #dfdfdf); */
-    background-color: #0b45c0;
+    background-color: #002168;
     box-shadow: 0px 0px 10px rgb(51, 51, 51);
     font-family: "Times New Roman", Times, serif;
 
@@ -27,13 +27,13 @@ background: radial-gradient(circle,rgba(179, 179, 179, 1) 0%, rgba(166, 166, 166
     background: rgb(224, 223, 226);
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     min-width: 450px;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 25px rgba(15, 15, 15, 0.9);
 }
 
 .speech-bubble:hover {
@@ -108,7 +108,7 @@ footer {
 
     box-shadow: 0px 0px 10px rgb(51, 51, 51);
     position: fixed;
-    background-color: #0b45c0;
+    background-color: #002168;
     bottom: 0;
     width: 100%;
     /* background-color: rgb(0, 198, 195); */
