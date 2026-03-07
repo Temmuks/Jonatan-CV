@@ -3,7 +3,8 @@ header {
     margin: auto;
     padding: 1rem;
     height: 100%;
-    background-image: linear-gradient(180deg, #8d8d8d, #aaaaaa 40%, #dfdfdf);
+    /* background-image: linear-gradient(180deg, #8d8d8d, #aaaaaa 40%, #dfdfdf); */
+    background-color: #0b45c0;
     box-shadow: 0px 0px 10px rgb(51, 51, 51);
     font-family: "Times New Roman", Times, serif;
 
@@ -16,9 +17,28 @@ figure {
 
 body {
     font-size: 17px;
-/* background: #b3b3b3;
+    /* background: #b3b3b3;
 background: radial-gradient(circle,rgba(179, 179, 179, 1) 0%, rgba(166, 166, 166, 1) 100%); */
+    background-color: #0F172A;
     height: 100%;
+}
+
+.card {
+    background: rgb(224, 223, 226);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    min-width: 450px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.speech-bubble:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 #aboutme {
@@ -37,7 +57,7 @@ background: radial-gradient(circle,rgba(179, 179, 179, 1) 0%, rgba(166, 166, 166
 
 .speech-bubble {
     position: relative;
-    background: #00e5fa;
+    background: rgb(224, 223, 226);
     border-radius: .6em;
     min-width: 450px;
     box-shadow: 0px 0px 10px #575757;
@@ -61,7 +81,7 @@ background: radial-gradient(circle,rgba(179, 179, 179, 1) 0%, rgba(166, 166, 166
     width: 0;
     height: 0;
     border: 64px solid transparent;
-    border-left-color: #00e5fa;
+    border-left-color: rgb(224, 223, 226);
     border-right: 0;
     border-bottom: 0;
     margin-top: -32px;
@@ -85,11 +105,10 @@ background: radial-gradient(circle,rgba(179, 179, 179, 1) 0%, rgba(166, 166, 166
 }
 
 footer {
-        background-image: linear-gradient(180deg, #dfdfdf, #aaaaaa 40%, #8d8d8d);
 
     box-shadow: 0px 0px 10px rgb(51, 51, 51);
     position: fixed;
-    color: white;
+    background-color: #0b45c0;
     bottom: 0;
     width: 100%;
     /* background-color: rgb(0, 198, 195); */
@@ -100,7 +119,7 @@ footer {
 
     text-align: left;
     box-shadow: 0px 0px 10px rgb(32, 32, 32);
-    background: #00e5fa;
+    background: #FFFFFF;
     /* background: radial-gradient(circle, rgb(0, 206, 224) 0%, rgba(0, 140, 153, 1) 100%); */
     border: 1px solid rgb(64, 64, 64);
     border-radius: 25px;
